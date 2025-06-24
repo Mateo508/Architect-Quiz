@@ -9,3 +9,4 @@ Open `index.html` in any modern web browser. Answer the ten questions and the qu
 - `index.html` – markup for the quiz
 - `styles.css` – minimalist styling
 - `script.js` – quiz logic and scoring
+- `images/` – place your custom architect photos here
