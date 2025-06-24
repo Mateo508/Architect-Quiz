@@ -235,6 +235,7 @@ function showResult() {
 
     resultTitle.textContent = `You got: ${winner.name}`;
     resultImg.src = winner.img;
+    resultImg.alt = winner.name;
     resultBio.textContent = winner.bio;
     resultScreen.classList.add('active');
 }
