@@ -1,6 +1,6 @@
 # Architect-Quiz
 
-This project is a lightweight web quiz that determines which famous architect you most resemble. It is completely client-side and requires no build tools.
+This project is a lightweight web quiz that determines which famous architect you most resemble. It is completely client-side and requires no build tools. The quiz features ten architect profiles: Zaha Hadid, Frank Lloyd Wright, Le Corbusier, Tadao Ando, Bjarke Ingels, Norman Foster, Rem Koolhaas, Louis Kahn, Antoni Gaudí, and Maya Lin.
 
 ## Running
 Open `index.html` in any modern web browser. Answer the ten questions and the quiz will present an architect profile with a short bio and image.
