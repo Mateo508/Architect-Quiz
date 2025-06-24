@@ -14,52 +14,52 @@ const resultBio = document.getElementById('result-bio');
 const architects = {
     hadid: {
         name: 'Zaha Hadid',
-        bio: 'Bold, futuristic, unconventional.',
+        bio: 'Zaha Hadid – The Futurist You’re a force of nature — unafraid to bend the rules, break the grid, or dream beyond dimensions. You thrive in fluidity, chaos, and bold visions. Like Zaha, you turn resistance into momentum and see beauty in the unpredictable. Your mind doesn’t just think outside the box — it liquefies it.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg'
     },
     wright: {
         name: 'Frank Lloyd Wright',
-        bio: 'Nature-integrated, philosophical, organic.',
+        bio: 'Frank Lloyd Wright – The Harmonist You’re grounded, thoughtful, and always seeking balance between self and surroundings. Like Wright, you’re a believer in timeless principles and quiet rebellion. Nature isn’t just something you admire — it’s part of your design DNA. Others chase trends; you build legacies.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/Frank_Lloyd_Wright_portrait.jpg'
     },
     corbusier: {
         name: 'Le Corbusier',
-        bio: 'Rational, modernist, structured.',
+        bio: 'Le Corbusier – The Rationalist Structure, clarity, and purpose guide your every move. You’re not here for the frills — you’re here to solve, organize, and revolutionize. Like Le Corbusier, you believe the world can be reimagined through systems that serve humanity. Your vision is bold, clean, and unapologetically precise.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Le_Corbusier_1933.jpg'
     },
     ando: {
         name: 'Tadao Ando',
-        bio: 'Minimalist, spiritual, concrete-heavy.',
+        bio: 'Tadao Ando – The Mystic Still waters run deep, and so do you. You radiate calm, move with intention, and value the unseen just as much as the visible. Like Ando, you understand that silence speaks, shadows guide, and simplicity reveals the soul. Your presence doesn’t shout — it resonates.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Tadao_Ando_2004.jpg'
     },
     ingels: {
         name: 'Bjarke Ingels',
-        bio: 'Playful, sustainable, visionary.',
+        bio: 'Bjarke Ingels – The Visionary Rebel You’re playful, provocative, and perpetually asking: “What if?” You see cities as canvases and problems as playgrounds. Like Bjarke, you balance big ideas with a wink — fusing fun with function, and spectacle with substance. Innovation isn’t optional for you — it’s inevitable.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Bjarke_Ingels_Kongrescenteret.jpg'
     },
     foster: {
         name: 'Norman Foster',
-        bio: 'High-tech, sustainable, sleek.',
+        bio: 'Norman Foster – The Elegant Engineer You’re polished, high-functioning, and laser-focused on performance. Like Foster, you blend efficiency with grace, innovation with restraint. Your ideas are big, but never bloated. You thrive in systems, love sleek design, and believe that beauty is a byproduct of precision.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Norman_Foster_%282009%29.jpg'
     },
     koolhaas: {
         name: 'Rem Koolhaas',
-        bio: 'Conceptual, urbanist, theory-driven.',
+        bio: 'Rem Koolhaas – The Disruptor You are sharp, cerebral, and a little dangerous. Like Koolhaas, you analyze the world with x-ray vision — deconstructing norms and rebuilding narratives. You’re not afraid to make people uncomfortable if it gets them to think. For you, cities are texts, and architecture is your critique.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Rem_Koolhaas_%282009%29.jpg'
     },
     kahn: {
         name: 'Louis Kahn',
-        bio: 'Monumental, timeless, luminous.',
+        bio: 'Louis Kahn – The Philosopher Architect You carry quiet strength. You ask deep questions and build with intention. Like Kahn, you believe architecture should endure — not just in form, but in feeling. You’re not swayed by noise or trends. Instead, you seek meaning, materiality, and light that stirs the soul.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/6/69/Louis_Kahn_%28cropped%29.jpg'
     },
     gaudi: {
         name: 'Antoni Gaudí',
-        bio: 'Organic, Catalan modernist, whimsical.',
+        bio: 'Antoni Gaudí – The Dream Builder You live in color. Emotion and imagination flow through your every decision. Like Gaudí, you draw power from nature, faith, and fantasy, seeing no boundary between art and architecture. You don’t just make — you enchant. Rules feel like cages, and your spirit was built to roam free.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Antoni_Gaudi_1878.jpg'
     },
     lin: {
         name: 'Maya Lin',
-        bio: 'Minimalist, site-specific, memorials.',
+        bio: 'Maya Lin – The Silent Sculptor You are quiet, observant, and emotionally intelligent. Like Lin, your work honors memory and meaning — often saying the most by doing the least. You trust subtlety over spectacle, depth over decoration. Your presence brings reflection, and your ideas leave a lasting mark.',
         img: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Maya_Lin.jpg'
     }
 };
