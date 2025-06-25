@@ -10,3 +10,14 @@ Open `index.html` in any modern web browser. Answer the ten questions and the qu
 - `styles.css` – minimalist styling
 - `script.js` – quiz logic and scoring
 - `images/` – place your custom architect photos here
+  The following filenames are expected in the `images/` folder:
+  zaha-hadid.jpg
+  frank-lloyd-wright.jpg
+  le-corbusier.jpg
+  tadao-ando.jpg
+  bjarke-ingels.jpg
+  norman-foster.jpg
+  rem-koolhaas.jpg
+  louis-kahn.jpg
+  antoni-gaudi.jpg
+  maya-lin.jpg
