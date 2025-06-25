@@ -21,3 +21,4 @@ Open `index.html` in any modern web browser. Answer the ten questions and the qu
   louis-kahn.jpg
   antoni-gaudi.jpg
   maya-lin.jpg
+  Famous-Architects.jpg (shown on the start screen)
