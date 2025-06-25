@@ -65,6 +65,7 @@ const architects = {
 };
         
 const questions = [
+    {
     text: 'What kind of materials get you excited to design with?',
     options: [
         { text: 'Sleek steel curves that scream "future"', scores: { hadid: 1, foster: 1 } },
