@@ -66,106 +66,105 @@ const architects = {
         
 const questions = [
     {
-    text: 'What kind of materials get you excited to design with?',
-    options: [
-        { text: 'Sleek steel curves that scream "future"', scores: { hadid: 1, foster: 1 } },
-        { text: 'Warm wood and earthy stone — straight from nature', scores: { wright: 1, kahn: 1, gaudi: 1 } },
-        { text: 'Raw concrete with attitude', scores: { ando: 1, koolhaas: 1 } },
-        { text: 'Modern, modular materials that just make sense', scores: { corbusier: 1, ingels: 1, lin: 1 } },
-        { text: 'Glass-filled structures that glow with light', scores: { foster: 1, lin: 1 } }
-    ]
-},
-{
-    text: 'What lights the spark for your design ideas?',
-    options: [
-        { text: 'Fast-paced cities and their chaotic beauty', scores: { hadid: 1, ingels: 1, koolhaas: 1, foster: 1 } },
-        { text: 'Being immersed in nature — trees, streams, skies', scores: { wright: 1, gaudi: 1, lin: 1 } },
-        { text: 'Designing systems that make cities smarter', scores: { corbusier: 1, foster: 1 } },
-        { text: 'Stillness, silence, and the sacred', scores: { ando: 1, kahn: 1 } },
-        { text: 'Layers of history and cultural roots', scores: { gaudi: 1, kahn: 1 } }
-    ]
-},
-{
-    text: 'Pick a shape that feels right to you:',
-    options: [
-        { text: 'Wild, flowing curves', scores: { hadid: 1, gaudi: 1 } },
-        { text: 'Soft, natural forms', scores: { wright: 1, gaudi: 1 } },
-        { text: 'Simple geometric boxes', scores: { corbusier: 1, kahn: 1, lin: 1 } },
-        { text: 'Playful geometry and bold angles', scores: { ingels: 1, koolhaas: 1 } },
-        { text: 'Sharp triangles and futuristic lines', scores: { foster: 1, hadid: 1 } }
-    ]
-},
-{
-    text: 'What\u2019s your creative philosophy?',
-    options: [
-        { text: 'Break the mold and take big swings', scores: { hadid: 1, koolhaas: 1 } },
-        { text: 'Design things that feel eternal and grounded', scores: { wright: 1, gaudi: 1 } },
-        { text: 'Let simplicity speak louder than decoration', scores: { ando: 1, lin: 1 } },
-        { text: 'Be smart, modern, and solve real problems', scores: { corbusier: 1, ingels: 1, foster: 1 } },
-        { text: 'Make a big impact with quiet strength', scores: { kahn: 1, corbusier: 1 } }
-    ]
-},
-{
-    text: 'Where would you most love to build?',
-    options: [
-        { text: 'In the middle of a major global city', scores: { hadid: 1, ingels: 1, foster: 1, koolhaas: 1 } },
-        { text: 'Surrounded by trees, mountains, or coastlines', scores: { wright: 1, gaudi: 1 } },
-        { text: 'Inside a perfectly planned, modern city', scores: { corbusier: 1, foster: 1 } },
-        { text: 'A tranquil cultural site off the beaten path', scores: { ando: 1, kahn: 1, lin: 1 } },
-        { text: 'Right in the historic heart of a city', scores: { gaudi: 1, kahn: 1 } }
-    ]
-},
-{
-    text: 'Choose a word that matches your vibe:',
-    options: [
-        { text: 'Futuristic', scores: { hadid: 1, foster: 1 } },
-        { text: 'Organic', scores: { wright: 1, gaudi: 1 } },
-        { text: 'Modernist', scores: { corbusier: 1, koolhaas: 1 } },
-        { text: 'Minimalist', scores: { ando: 1, lin: 1 } },
-        { text: 'Community-driven', scores: { ingels: 1, kahn: 1 } }
-    ]
-},
-{
-    text: 'Which description fits you best?',
-    options: [
-        { text: 'Visionary risk-taker who shakes things up', scores: { hadid: 1, ingels: 1, koolhaas: 1 } },
-        { text: 'Grounded, reflective, and full of wisdom', scores: { wright: 1, kahn: 1 } },
-        { text: 'Strategic thinker who loves structure and clarity', scores: { corbusier: 1, foster: 1 } },
-        { text: 'Quiet creative who speaks through design', scores: { ando: 1, lin: 1 } },
-        { text: 'Colorful dreamer who sees magic in everything', scores: { gaudi: 1, ingels: 1 } }
-    ]
-},
-{
-    text: 'Pick your go-to color palette:',
-    options: [
-        { text: 'High contrast — drama and intensity', scores: { hadid: 1, koolhaas: 1 } },
-        { text: 'Earth tones that feel natural and warm', scores: { wright: 1, gaudi: 1, kahn: 1 } },
-        { text: 'Concrete grays that feel raw and honest', scores: { ando: 1, foster: 1 } },
-        { text: 'Clean whites that create calm', scores: { corbusier: 1, lin: 1 } },
-        { text: 'Vibrant hues that spark joy', scores: { ingels: 1, gaudi: 1 } }
-    ]
-},
-{
-    text: 'How big do you dream?',
-    options: [
-        { text: 'Massive, iconic landmarks', scores: { hadid: 1, foster: 1 } },
-        { text: 'Cozy homes with human touch', scores: { wright: 1, gaudi: 1, lin: 1 } },
-        { text: 'Ambitious housing for lots of people', scores: { corbusier: 1, koolhaas: 1 } },
-        { text: 'Spaces that bring communities together', scores: { ingels: 1, kahn: 1 } },
-        { text: 'Sacred spaces that feel timeless', scores: { ando: 1, kahn: 1 } }
-    ]
-},
-{
-    text: 'What should architecture do?',
-    options: [
-        { text: 'Shock, delight, and challenge expectations', scores: { hadid: 1, koolhaas: 1 } },
-        { text: 'Blend into nature and feel part of the land', scores: { wright: 1, gaudi: 1 } },
-        { text: 'Bring order and make life easier', scores: { corbusier: 1, foster: 1 } },
-    optionsEl.dataset.selected = '';
-        { text: 'Create peace and introspection', scores: { ando: 1, lin: 1 } },
-        { text: 'Support sustainable and meaningful living', scores: { ingels: 1, kahn: 1 } }
-    ]
-}
+        text: 'What kind of materials get you excited to design with?',
+        options: [
+            { text: 'Sleek steel curves that scream "future"', scores: { hadid: 1, foster: 1 } },
+            { text: 'Warm wood and earthy stone — straight from nature', scores: { wright: 1, kahn: 1, gaudi: 1 } },
+            { text: 'Raw concrete with attitude', scores: { ando: 1, koolhaas: 1 } },
+            { text: 'Modern, modular materials that just make sense', scores: { corbusier: 1, ingels: 1, lin: 1 } },
+            { text: 'Glass-filled structures that glow with light', scores: { foster: 1, lin: 1 } }
+        ]
+    },
+    {
+        text: 'What lights the spark for your design ideas?',
+        options: [
+            { text: 'Fast-paced cities and their chaotic beauty', scores: { hadid: 1, ingels: 1, koolhaas: 1, foster: 1 } },
+            { text: 'Being immersed in nature — trees, streams, skies', scores: { wright: 1, gaudi: 1, lin: 1 } },
+            { text: 'Designing systems that make cities smarter', scores: { corbusier: 1, foster: 1 } },
+            { text: 'Stillness, silence, and the sacred', scores: { ando: 1, kahn: 1 } },
+            { text: 'Layers of history and cultural roots', scores: { gaudi: 1, kahn: 1 } }
+        ]
+    },
+    {
+        text: 'Pick a shape that feels right to you:',
+        options: [
+            { text: 'Wild, flowing curves', scores: { hadid: 1, gaudi: 1 } },
+            { text: 'Soft, natural forms', scores: { wright: 1, gaudi: 1 } },
+            { text: 'Simple geometric boxes', scores: { corbusier: 1, kahn: 1, lin: 1 } },
+            { text: 'Playful geometry and bold angles', scores: { ingels: 1, koolhaas: 1 } },
+            { text: 'Sharp triangles and futuristic lines', scores: { foster: 1, hadid: 1 } }
+        ]
+    },
+    {
+        text: 'What is your creative philosophy?',
+        options: [
+            { text: 'Break the mold and take big swings', scores: { hadid: 1, koolhaas: 1 } },
+            { text: 'Design things that feel eternal and grounded', scores: { wright: 1, gaudi: 1 } },
+            { text: 'Let simplicity speak louder than decoration', scores: { ando: 1, lin: 1 } },
+            { text: 'Be smart, modern, and solve real problems', scores: { corbusier: 1, ingels: 1, foster: 1 } },
+            { text: 'Make a big impact with quiet strength', scores: { kahn: 1, corbusier: 1 } }
+        ]
+    },
+    {
+        text: 'Where would you most love to build?',
+        options: [
+            { text: 'In the middle of a major global city', scores: { hadid: 1, ingels: 1, foster: 1, koolhaas: 1 } },
+            { text: 'Surrounded by trees, mountains, or coastlines', scores: { wright: 1, gaudi: 1 } },
+            { text: 'Inside a perfectly planned, modern city', scores: { corbusier: 1, foster: 1 } },
+            { text: 'A tranquil cultural site off the beaten path', scores: { ando: 1, kahn: 1, lin: 1 } },
+            { text: 'Right in the historic heart of a city', scores: { gaudi: 1, kahn: 1 } }
+        ]
+    },
+    {
+        text: 'Choose a word that matches your vibe:',
+        options: [
+            { text: 'Futuristic', scores: { hadid: 1, foster: 1 } },
+            { text: 'Organic', scores: { wright: 1, gaudi: 1 } },
+            { text: 'Modernist', scores: { corbusier: 1, koolhaas: 1 } },
+            { text: 'Minimalist', scores: { ando: 1, lin: 1 } },
+            { text: 'Community-driven', scores: { ingels: 1, kahn: 1 } }
+        ]
+    },
+    {
+        text: 'Which description fits you best?',
+        options: [
+            { text: 'Visionary risk-taker who shakes things up', scores: { hadid: 1, ingels: 1, koolhaas: 1 } },
+            { text: 'Grounded, reflective, and full of wisdom', scores: { wright: 1, kahn: 1 } },
+            { text: 'Strategic thinker who loves structure and clarity', scores: { corbusier: 1, foster: 1 } },
+            { text: 'Quiet creative who speaks through design', scores: { ando: 1, lin: 1 } },
+            { text: 'Colorful dreamer who sees magic in everything', scores: { gaudi: 1, ingels: 1 } }
+        ]
+    },
+    {
+        text: 'Pick your go-to color palette:',
+        options: [
+            { text: 'High contrast — drama and intensity', scores: { hadid: 1, koolhaas: 1 } },
+            { text: 'Earth tones that feel natural and warm', scores: { wright: 1, gaudi: 1, kahn: 1 } },
+            { text: 'Concrete grays that feel raw and honest', scores: { ando: 1, foster: 1 } },
+            { text: 'Clean whites that create calm', scores: { corbusier: 1, lin: 1 } },
+            { text: 'Vibrant hues that spark joy', scores: { ingels: 1, gaudi: 1 } }
+        ]
+    },
+    {
+        text: 'How big do you dream?',
+        options: [
+            { text: 'Massive, iconic landmarks', scores: { hadid: 1, foster: 1 } },
+            { text: 'Cozy homes with human touch', scores: { wright: 1, gaudi: 1, lin: 1 } },
+            { text: 'Ambitious housing for lots of people', scores: { corbusier: 1, koolhaas: 1 } },
+            { text: 'Spaces that bring communities together', scores: { ingels: 1, kahn: 1 } },
+            { text: 'Sacred spaces that feel timeless', scores: { ando: 1, kahn: 1 } }
+        ]
+    },
+    {
+        text: 'What should architecture do?',
+        options: [
+            { text: 'Shock, delight, and challenge expectations', scores: { hadid: 1, koolhaas: 1 } },
+            { text: 'Blend into nature and feel part of the land', scores: { wright: 1, gaudi: 1 } },
+            { text: 'Bring order and make life easier', scores: { corbusier: 1, foster: 1 } },
+            { text: 'Create peace and introspection', scores: { ando: 1, lin: 1 } },
+            { text: 'Support sustainable and meaningful living', scores: { ingels: 1, kahn: 1 } }
+        ]
+    }
 ];
 
 let currentQuestion = 0;
