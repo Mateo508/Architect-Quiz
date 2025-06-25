@@ -62,7 +62,7 @@ const architects = {
         bio: 'Antoni Gaudí – The Dream Builder. You live in color. Emotion and imagination flow through your every decision. Like Gaudí, you draw power from nature, faith, and fantasy, seeing no boundary between art and architecture. You don’t just make — you enchant. Rules feel like cages, and your spirit was built to roam free.',
         img: 'images/Antoni-Gaudi.jpg'
     }
-];
+};
         
 const questions = {
     text: 'What kind of materials get you excited to design with?',
