@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const startScreen = document.getElementById('start-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
@@ -161,6 +162,7 @@ const questions = [
         { text: 'Shock, delight, and challenge expectations', scores: { hadid: 1, koolhaas: 1 } },
         { text: 'Blend into nature and feel part of the land', scores: { wright: 1, gaudi: 1 } },
         { text: 'Bring order and make life easier', scores: { corbusier: 1, foster: 1 } },
+    optionsEl.dataset.selected = '';
         { text: 'Create peace and introspection', scores: { ando: 1, lin: 1 } },
         { text: 'Support sustainable and meaningful living', scores: { ingels: 1, kahn: 1 } }
     ]
@@ -244,3 +246,5 @@ function restartQuiz() {
     resultScreen.classList.remove('active');
     startScreen.classList.add('active');
 }
+
+});
