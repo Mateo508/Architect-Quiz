@@ -39,6 +39,11 @@ body {
     cursor: not-allowed;
 }
 
+.subtitle {
+    margin-top: 5px;
+    color: #555;
+}
+
 .options {
     list-style: none;
     padding: 0;

@@ -63,7 +63,7 @@ const architects = {
         img: 'images/Antoni-Gaudi.jpg'
     }
 };
-        
+
 const questions = [
     {
         text: 'What kind of materials get you excited to design with?',
@@ -186,6 +186,8 @@ function showQuestion() {
     const q = questions[currentQuestion];
     questionEl.textContent = q.text;
     optionsEl.innerHTML = '';
+    optionsEl.dataset.selected = '';
+
     q.options.forEach((opt, index) => {
         const li = document.createElement('li');
         const btn = document.createElement('button');
